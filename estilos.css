@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfbfb;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(228, 5, 5);
+}
+
+#formulario {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(212, 6, 6);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#galeriaImagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#galeriaImagenes div {
+    background-color: #ca0606;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#galeriaImagenes img {
+    width: 200px;
+    height: 200px;
+}
+
+#galeriaImagenes p {
+    color: rgb(253, 252, 252);
+    font-weight: bold;
+}
